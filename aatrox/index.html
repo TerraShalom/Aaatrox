@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeón de LoL - Display Completo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+
+    </style>
+</head>
+<header class="header-lol">
+    <div class="container d-flex justify-content-center align-items-center mt-2">
+        <img src="./img/ai-removebg-preview.png" alt="Logo de LoL" class="logo-lol">
+    </div>
+</header>
+<body>
+<div class="container">
+    <div class="container mt-5">
+        <!-- Título y descripción del campeón con imagen más grande -->
+        <div class="row">
+            <div class="col-md-7">
+                <img src="./img/aatrox.jpg" class="img-fluid rounded champion-img mt-4" alt="Imagen del campeón">
+            </div>
+            <div class="col-md-5">
+                <h1 class="display-4 fontLol">AATROX</h1>
+                <p class="lead fontLolsub"><strong>LA ESPADA DARKIN</strong></p>
+                <p class="fontLolText">Aatrox y sus hermanos, otrora respetados defensores de Shurima contra el Vacío, fueron creados por los Ascendidos como poderosas armas vivientes, encargadas de proteger a su civilización de amenazas mayores. Durante siglos, Aatrox luchó valientemente junto a sus compañeros Darkin, enfrentándose a innumerables peligros. Sin embargo, el poder que poseían les llevó a corromperse, olvidando su propósito original. En lugar de defender la vida, comenzaron a usar su inmenso poder para devastar y destruir. Aatrox, en particular, era temido por su destreza en la batalla y su ansia de conquista, dejando un rastro de muerte y desolación allá donde iba.
+
+                    Finalmente, los mismos hechiceros que habían creado a los Ascendidos se vieron obligados a actuar para detenerlos.
+                    
+                    No obstante, tras siglos de encarcelamiento, Aatrox ha logrado romper parcialmente su prisión. Aunque todavía vinculado a la espada que lo contiene, ha recuperado su libertad para deambular por Runaterra una vez más.</p>
+            </div>
+        </div>
+
+        <!-- Sección de Habilidades y Video Placeholder al costado -->
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <h2 class="mb-3 fontLol2">HABILIDADES</h2>
+                <div class="row">
+                    <!-- Habilidad 1 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="./img/AatroxQ.jpg" class="ability-icon" alt="Ícono Habilidad Q"> <p class="fontLol3">Q - ESPADA DARKIN</p>
+                                </h5>
+                                <p class="card-text fontLolText ">Aatrox balancea su espada hasta tres veces, infligiendo daño en áreas diferentes con cada golpe. El último golpe tiene un área mayor y un mayor impacto. Si acierta los tres impactos, el daño total inflingido aumentará.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Habilidad 2 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="./img/aatroxW.jpg" class="ability-icon" alt="Ícono Habilidad W"><p class="fontLol3">W - CADENAS INFERNALES</p>
+                                </h5>
+                                <p class="card-text fontLolText"> Aatrox lanza una cadena que daña a los enemigos alcanzados. Si un campeón o monstruo permanece en el área de impacto, será arrastrado de vuelta hacia el centro y quedará inmovilizado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Habilidad 3 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="./img/aatroxE.jpg" class="ability-icon" alt="Ícono Habilidad E"> <p class="fontLol3">E - DESLIZAMIENTO SOMBRÍO</p>
+                                </h5>
+                                <p class="card-text fontLolText">Aatrox se desliza en una corta distancia, ganando curación al infligir daño a los enemigos. Este deslizamiento puede almacenarse para ser utilizado en un corto período de tiempo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ultimate -->
+                     <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="./img/aatroxR.jpg" class="ability-icon" alt="Ícono Ultimate"> <p class="fontLol3">R - DESTRUCTOR DE MUNDOS</p>
+                                </h5>
+                                <p class="card-text fontLolText">Aatrox crece en tamaño, aumenta su velocidad de movimiento y se vuelve extremadamente poderoso. Durante esta forma, inflige daño adicional y se cura al matar enemigos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recuadro de video al costado, alineado en el medio -->
+            <div class="col-md-4 align-middle">
+                <div class="video-placeholder">
+                    <!-- Agregamos un video con un ID para identificarlo en el JS -->
+                    <video id="ability-video" width="100%" class="" loop>
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta la reproducción de videos.
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skins -->
+        <div class="mt-5 ">
+            <h2 class="fontLol2">ASPECTOS DEL CAMPEÓN</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="./img/Aatrox_1.jpg" class="img-fluid rounded skin-img" alt="Skin 1">
+                    <p class="text-center mt-2 fontLolText">Aatrox Justiciero</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/Aatrox_2.jpg" class="img-fluid rounded skin-img" alt="Skin 2">
+                    <p class="text-center mt-2 fontLolText">Aatrox Mecha</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/Aatrox_7.jpg" class="img-fluid rounded skin-img" alt="Skin 3">
+                    <p class="text-center mt-2 fontLolText">Aatrox Luna Sangrienta</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/Aatrox_9.jpg" class="img-fluid rounded skin-img" alt="Skin 4">
+                    <p class="text-center mt-2 fontLolText">Aatrox Victorioso</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/Aatrox_11.jpg" class="img-fluid rounded skin-img" alt="Skin 5">
+                    <p class="text-center mt-2 fontLolText">Aatrox Odisea</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/Aatrox_31.jpg" class="img-fluid rounded skin-img" alt="Skin 6">
+                    <p class="text-center mt-2 fontLolText">Aatrox Victorioso</p>
+                </div>
+            </div>
+        </div>
+
+                <!-- Modal para mostrar la skin completa -->
+        <div class="modal modal-xl fade" id="skinModal" tabindex="-1" aria-labelledby="skinModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content onlybg card">
+                <div class="modal-body">
+                <img id="modalSkinImage" src="" class="img-fluid" alt="Skin completa">
+                </div>
+            </div>
+            </div>
+        </div>
+  
+    </div>
+</div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="./js/anim.js"></script>
+
+</body>
+</html>
